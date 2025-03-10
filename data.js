@@ -209,25 +209,24 @@ const questions = [
             { text: "Explorarea naturii", value: "Ghid turistic" }
         ]
     }
-    
 ];
 
 
 // Add more job options as needed (totaling at least 50 potential job results)
 const possibleJobs = [
-    'Designer Grafic', 'Data Scientist', 'Inginer', 
-    'Freelancer', 'Manager de Proiect', 'Consultant', 
+    'Designer Grafic', 'Data Scientist', 'Inginer',
+    'Freelancer', 'Manager de Proiect', 'Consultant',
     'Psiholog', 'Programator', 'Inventator',
     'Medic', 'Arhitect', 'Avocat', 'Profesor',
     'Jurnalist', 'Antreprenor', 'Chef', 'Fotograf',
     'Actor', 'Muzician', 'Antrenor personal', 'Cercetător',
     'Analist financiar', 'Administrator de sistem', 'Web Developer',
-    'Specialist în marketing', 'Copywriter', 'Traducător', 
+    'Specialist în marketing', 'Copywriter', 'Traducător',
     'Specialist HR', 'Designer UI/UX', 'Administrator de rețea',
     'Consultant financiar', 'Agent imobiliar', 'Vânzător',
     'Economist', 'Psihiatru', 'Kinetoterapeut', 'Inginer software',
     'Bioinginer', 'Tehnician IT', 'Expert în securitate cibernetică',
-    'Designer interior', 'Consultant turism', 'Pilot', 
+    'Designer interior', 'Consultant turism', 'Pilot',
     'Steward/Stewardesă', 'Manager restaurant', 'Tehnician audio-video',
     'Ghid turistic', 'Analist business', 'Administrator de proiect'
 ];
