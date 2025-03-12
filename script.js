@@ -92,8 +92,8 @@ function calculateResult() {
     }
 
     document.getElementById('quiz-container').innerHTML = `
-        <h2>Rezultatul tău:</h2>
-        <p>Ești potrivit pentru meseria de: <strong>${bestMatch}</strong></p>
+        <h2>Re-esind din raspunsurile dvs:</h2>
+        <p>Cea mai potrivita cariera este: <strong>${bestMatch}</strong></p>
     `;
     document.getElementById('next-button').style.display = 'none';
 }
