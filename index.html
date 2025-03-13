@@ -14,7 +14,12 @@
 
     <div class="container">
         <div id="quiz-container"></div>
-        <button id="next-button" onclick="nextQuestion()">Următoarea întrebare</button>
+        <div class="buttons-container">
+            <div class="next-container">
+                <button class="next-buton" id="next-button" onclick="nextQuestion()">Următoarea întrebare</button>
+            </div>
+            <button class="debug" id="debug" onclick="debugMode()">Debug mode (apasa numai daca esti nicolas)</button>
+        </div>
     </div>
 
     <script src="data.js"></script>

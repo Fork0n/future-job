@@ -14,7 +14,7 @@ function loadQuestion() {
     questionData.answers.forEach(answer => {
         const label = document.createElement('label');
         label.innerHTML = `
-            <input type="radio" name="answer" value="${answer.value}">
+            <input class="answer" type="radio" name="answer" value="${answer.value}">
             ${answer.text}
         `;
         container.appendChild(label);
@@ -36,13 +36,17 @@ function nextQuestion() {
 
     userAnswers.push(selectedAnswer.value);
     currentQuestionIndex++;
-    missedAttempts = 0; // Resetează contorul la un răspuns valid
+    missedAttempts = 0;
 
     if (currentQuestionIndex < questions.length) {
         loadQuestion();
     } else {
         calculateResult();
     }
+}
+
+function debugMode() {
+    alert("EU STIU CA TU NU ESTI NICOLAS!")
 }
 
 function showAggressiveAlert() {
@@ -58,7 +62,7 @@ function showAggressiveAlert() {
         message = 'RASPUNDE CHIAR ACUM🔥!!!!';
         document.body.style.backgroundColor = '#ffcccc';
     } else if (missedAttempts === 6) {
-        message = 'La acest moment cred ca vrei sa stii ce te mai asteapta';
+        message = 'Nu vrei sa afli rezultatul tau?';
     } else if (missedAttempts === 7) {
         message = 'ULTIMA SANSA SA RASPUNZI!!!';
     } else if (missedAttempts >= 8) {
