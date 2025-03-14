@@ -100,6 +100,7 @@ function calculateResult() {
         <p>Cea mai potrivita cariera este: <strong>${bestMatch}</strong></p>
     `;
     document.getElementById('next-button').style.display = 'none';
+    document.getElementById('debug').style.display = 'none';
 }
 
 window.onload = loadQuestion;
