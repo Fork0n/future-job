@@ -21,7 +21,7 @@ function loadQuestion() {
     });
 
     document.getElementById('next-button').style.display = 'block';
-    updateMissedAttemptsDisplay(); // Actualizează afișajul
+    updateMissedAttemptsDisplay();
 }
 
 function nextQuestion() {

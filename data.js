@@ -212,7 +212,6 @@ const questions = [
 ];
 
 
-// Add more job options as needed (totaling at least 50 potential job results)
 const possibleJobs = [
     'Designer Grafic', 'Data Scientist', 'Inginer',
     'Freelancer', 'Manager de Proiect', 'Consultant',
